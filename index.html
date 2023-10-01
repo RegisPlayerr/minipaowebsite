@@ -61,6 +61,38 @@
         AOS.init({
           once: true // Adiciona a propriedade "once" para que as animações ocorram apenas uma vez
         });
+
+        // Defina a URL base do seu site
+        var novaURL = 'http://minipaowebsite.vercel.app';
+
+        function redirecionarIdioma() {
+            // Obtém o idioma do navegador
+            var idioma = navigator.language || navigator.userLanguage;
+
+            // Obtém a parte inicial da URL (por exemplo, "/en", "/pt", "/es")
+            var urlIdioma = window.location.pathname.split('/')[1];
+
+            // Define os idiomas suportados
+            var idiomasSuportados = ['en'];
+
+            // Verifica se o idioma da URL é suportado
+            if (idiomasSuportados.includes(urlIdioma)) {
+                // O idioma na URL é suportado, não é necessário redirecionar
+                return;
+            }
+
+            if (idioma.startsWith('en')) {
+                window.location.href = novaURL + '/en';
+            } else if (idioma.startsWith('pt')) {
+                return;
+            } else {
+                // Caso o idioma não seja suportado ou seja diferente de "pt" ou "en", redirecione para uma página padrão
+                window.location.href = novaURL + '/en';
+            }
+        }
+
+        // Chama a função quando a página é carregada
+        window.onload = redirecionarIdioma();
     </script>
 </body>
 </html>
