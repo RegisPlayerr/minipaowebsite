@@ -93,6 +93,14 @@ nav li a:hover {
             
         }
 
+        .documentacao {
+          background-color: rgb(0, 141, 206);
+        }
+
+        .documentacao:hover {
+          background-color: rgb(0, 93, 136);
+        }
+
 
         .adicionar:hover {
             background-color: #1e7d34;
