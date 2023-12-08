@@ -34,6 +34,14 @@
   /* Outras estilizações do banner... */
 }
 
+@media screen and (max-width: 767px) {
+  .adbannerleft {
+    display: none; /* Esconde o banner em telas menores */
+  }
+  .adbannerrright {
+    display: none; /* Esconde o banner em telas menores */
+  }
+}
 
 header {
   background-color: #ff9d2b;
