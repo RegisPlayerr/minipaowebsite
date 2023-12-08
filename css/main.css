@@ -35,14 +35,9 @@
 }
 
 @media screen and (max-width: 767px) {
-  .adbannerleft {
-    display: none; /* Esconde o banner em telas menores */
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .adbannerrright {
-    display: none; /* Esconde o banner em telas menores */
+  .adbannerleft,
+  .adbannerright {
+    display: none; /* Esconde os banners em telas menores */
   }
 }
 
