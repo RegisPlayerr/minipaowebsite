@@ -9,7 +9,30 @@
             
             
         }
-        
+
+.adbannerleft {
+  margin-top: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px; /* Largura do banner */
+  height: 600px; /* Altura do banner */
+  z-index: 1;
+  margin-left: 50px;
+  /* Outras estilizações do banner... */
+}
+
+.adbannerright {
+  margin-top: 70px;
+  margin-right: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 160px; /* Largura do banner */
+  height: 600px; /* Altura do banner */
+  z-index: 1;
+  /* Outras estilizações do banner... */
+}
 
 
 header {
