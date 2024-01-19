@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta property="og:title" content="MiniPão 🍞" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://minipaowebsite.vercel.app/"/>
-    <meta property="og:description" content="MiniPão é um bot com o objetivo de te ajudar na moderação, na personalização do servidor, e na diversão com diversos comandos que irão certamente facilitar o seu trabalho, com o tema de pão! 🍞" />
-    <meta property="og:locale" content="pt_BR" />
-    <meta property="og:image" content="https:///minipaowebsite.vercel.app/icons/minipao.png" />
-    <meta name="theme-color" content="#ff9d2b">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="/icons/minipaoIco32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/icons/minipaoIco16x16.png">
-    <link rel="icon" type="image/x-icon" href="/icons/minipaoIco.ico">
-    <title>MiniPão</title>
+  <meta charset="UTF-8">
+  <meta property="og:title" content="MiniPão 🍞" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://minipaowebsite.vercel.app/" />
+  <meta property="og:description"
+    content="MiniPão é um bot com o objetivo de te ajudar na moderação, na personalização do servidor, e na diversão com diversos comandos que irão certamente facilitar o seu trabalho, com o tema de pão! 🍞" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:image" content="https:///minipaowebsite.vercel.app/icons/minipao.png" />
+  <meta name="theme-color" content="#ff9d2b">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/minipaoIco32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/minipaoIco16x16.png">
+  <link rel="icon" type="image/x-icon" href="/icons/minipaoIco.ico">
+  <title>MiniPão</title>
 </head>
+
 <body>
-      <header>
+  <header>
     <nav>
       <ul>
-        <li><t>MiniPão</t></li>
-        
+        <li>
+          <t>MiniPão</t>
+        </li>
         <li><a href="./index.html">Início</a></li>
         <li><a href="./termos">Termos de Serviço</a></li>
         <li><a href="./privacidade">Política de Privacidade</a></li>
@@ -34,40 +35,58 @@
     </nav>
   </header>
   <main>
-      <noscript style="display: block; margin-top: 100px; color: #ff0000; background-color: #ffffff; padding: 10px; border: 1px solid #ff0000; font-size: 16px; font-family: Arial, sans-serif;">Por favor, ative o JavaScript para utilizar esse site.<br>Please enable JavaScript to use this site.</noscript>
-<h1 data-aos="fade-up" data-aos-duration="700">MiniPão</h1>
+    <noscript
+      style="display: block; margin-top: 100px; color: #ff0000; background-color: #ffffff; padding: 10px; border: 1px solid #ff0000; font-size: 16px; font-family: Arial, sans-serif;">Por
+      favor, ative o JavaScript para utilizar esse site.<br>Please enable JavaScript to use this site.</noscript>
+    <h1 data-aos="fade-up" data-aos-duration="700">MiniPão</h1>
     <div class="descricao" data-aos="fade-up" data-aos-duration="700">
-     MiniPão é um bot com o objetivo de te ajudar na moderação, na personalização do servidor, e na diversão com diversos comandos que irão certamente facilitar o seu trabalho, com o tema de pão! 🍞
+      MiniPão é um bot com o objetivo de te ajudar na moderação, na personalização do servidor, e na diversão com
+      diversos comandos que irão certamente facilitar o seu trabalho, com o tema de pão! 🍞
     </div>
     <div class="botoes" data-aos="fade-up" data-aos-duration="700">
-      <a class="botao adicionar animate__animated animate__bounceIn" href="https://dsc.gg/minipao" data-aos="fade-up" data-aos-duration="700">Adicionar!</a>
-      <a class="botao documentacao animate__animated animate__bounceIn" href="https://top.gg/bot/1087081059239334049/vote" data-aos="fade-up" data-aos-duration="700">Votar no top.gg!</a>
+      <button id='add' class="botao adicionar animate__animated animate__bounceIn">
+        <span class="button-add" data-aos="fade-up" data-aos-duration="700">Adicionar!</span>
+      </button>
+      <button id='tg' class="botao topgg animate__animated animate__bounceIn">
+        <span class="button-add" data-aos="fade-up" data-aos-duration="700">Vote no top.gg!</span>
+      </button>
     </div>
 
 
     <div class="funcionalidades" data-aos="fade-up" data-aos-duration="700">
-        <h2 class="f-titulo">Funcionalidades:</h2>
-        <h5 class="f-texto">- Proteja seu servidor de Raids!</h5>
-        <p>Com o comando "/antiraid toggle" você pode proteger seu servidor que qualquer bot de raid!</p>
-        <h5 class="f-texto">- Deixe os nomes no seu servidor muito mais bonitos com comandos de cores!</h5>
-        <p>Com o comando "/cor", você pode escolher entre 20 cores para o seu ou o nome dos membros do seu servidor (utilize /criarcores antes para criar os cargos de cores)!</p>
-        <h5 class="f-texto">- Se divirta com diversos comandos de imagens!</h5>
-        <p>Crie memes e imagens, com os membros do seu servidor!</p>
-        <h5 class="f-texto">- Melhore a moderação do seu servidor com incríveis comandos de moderação!</h5>
-        <p>Melhore a moderação do seu servidor com incríveis comandos de auto-mod, que certamente vão facilitar o seu, e o trabalho dos moderadores do servidor!</p>
-        <h5 class="f-texto">- Decida com o dado!</h5>
-        <p>Precisa girar um dado de quantos lados quiser urgentemente? Utilize "/dado"!</p>
-        <h5 class="f-texto">- Crie embeds com facilidade!</h5>
-        <p>Crie embeds facilmente com milhares de tipos de personalização usando o comando "/embed_criar"!</p>
-        <h5 class="f-texto">- Em breve ainda mais funções serão adicionadas!</h5>
+      <h2 class="f-titulo">Funcionalidades:</h2>
+      <h5 class="f-texto">- Proteja seu servidor de invasões!</h5>
+      <p>Com o comando "/antiraid toggle" protegerei o seu servidor com um comando capaz de detectar, e banir qualquer
+        bot de raid que entre em seu servidor!</p>
+      <h5 class="f-texto">- Deixe os nomes no seu servidor muito mais bonitos com comandos de cores!</h5>
+      <p>Com o comando "/cor", você pode escolher entre 20 cores para o seu ou o nome dos membros do seu servidor
+        (utilize /criarcores antes para criar os cargos de cores)!</p>
+      <h5 class="f-texto">- Melhore a moderação do seu servidor com incríveis comandos de moderação!</h5>
+      <p>Melhore a moderação do seu servidor com incríveis comandos de auto-mod, que certamente vão facilitar o seu, e o
+        trabalho dos moderadores do servidor!</p>
+      <h5 class="f-texto">- Decida com o dado!</h5>
+      <p>Precisa girar um dado de quantos lados quiser urgentemente? Utilize "/dado"!</p>
+      <h5 class="f-texto">- Crie embeds com facilidade!</h5>
+      <p>Crie embeds facilmente com milhares de tipos de personalização usando o comando "/embed_criar"!</p>
+      <h5 class="f-texto">- Sistema autorole customizável!</h5>
+      <p>Com o comando "/autorole add" você pode dar até 10 cargos para quando alguém entra no seu servidor, e escolha
+        quais cargos bots receberão ao entrar ou membros!</p>
+      <h5 class="f-texto">E muito mais...</h5>
     </div>
- </main>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        AOS.init({
-          once: true // Adiciona a propriedade "once" para que as animações ocorram apenas uma vez
-        });
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true // Adiciona a propriedade "once" para que as animações ocorram apenas uma vez
+    });
     console.log('Tá olhando o que aqui? 🤨');
-    </script>
+    document.getElementById('add').addEventListener('click', function () {
+      window.open('https://dsc.gg/minipao', '_blank');
+    });
+    document.getElementById('tg').addEventListener('click', function () {
+      window.open('https://top.gg/bot/1087081059239334049/vote', '_blank');
+    });
+  </script>
 </body>
+
 </html>
